@@ -14,6 +14,22 @@ This is a simple event-tracking API built with FastAPI and managed using [uv](ht
 ## ⚙️ Setup
 
 1\. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/incident-api.git
-   cd incident-api
+```bash
+git clone https://github.com/Fameless4ellL/UCCARDEMO.git
+cd UCCARDEMO
+```
+
+
+## Run
+```bash
+   uv sync
+```
+
+```bash
+   uv run uvicorn src.main:app --reload
+```
+
+## tests
+```bash
+   uv run --env-file .env pytest
+```
