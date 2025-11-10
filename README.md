@@ -33,3 +33,8 @@ cd UCCARDEMO
 ```bash
    uv run --env-file .env pytest
 ```
+
+## 📝 API Endpoints
+- `POST /incidents/`: Create a new incident report.
+- `GET /incidents/`: List all incident reports.
+- `PUT /incidents/{incident_id}/`: Update an existing incident report.
