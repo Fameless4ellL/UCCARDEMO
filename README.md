@@ -6,7 +6,7 @@ This is a simple event-tracking API built with FastAPI and managed using [uv](ht
 
 ## 📦 Requirements
 
-- Python 3.11+
+- Python 3.13+
 - [uv](https://astral.sh/uv) installed
 
 ---
