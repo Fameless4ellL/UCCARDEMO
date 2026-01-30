@@ -2,8 +2,6 @@
 
 This is a simple event-tracking API built with FastAPI and managed using [uv](https://github.com/astral-sh/uv). It allows you to create, list, and update incident reports.
 
-tested and becnhmarked on k6 under 10k rps
-
 ---
 
 ## Requirements
