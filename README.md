@@ -1,4 +1,4 @@
-# 🚀 Incident API — FastAPI + uv
+# Incident API — FastAPI + uv
 
 This is a simple event-tracking API built with FastAPI and managed using [uv](https://github.com/astral-sh/uv). It allows you to create, list, and update incident reports.
 
@@ -6,14 +6,14 @@ tested and becnhmarked on k6 under 10k rps
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.13+
 - [uv](https://astral.sh/uv) installed
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 1\. Clone the repository:
 ```bash
@@ -36,7 +36,7 @@ cd UCCARDEMO
    uv run --env-file .env pytest
 ```
 
-## 📝 API Endpoints
+## API Endpoints
 - `POST /incidents/`: Create a new incident report.
 - `GET /incidents/`: List all incident reports.
 - `PUT /incidents/{incident_id}/`: Update an existing incident report.
